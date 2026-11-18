@@ -1,0 +1,16 @@
+Updates that i am planning will have an *. Usually the active site will be running the planned update on this list
+
+Version history:
+Initial commit
+
+Version 2
+
+Version 3
+
+Version 3.5, color from style sheets
+
+Version 4, first notebook
+
+* Version 5, first public verison
+
+2026 01 30: It's been a long time since i made an update to this, the site has been live for a long time now, i have 3 subdomains for notes themselves, random stuff i make, and the "garden"

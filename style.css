@@ -1,0 +1,68 @@
+@font-face{
+    font-family: Architect;
+    src: url(ArchitectsDaughter-Regular.ttf);
+}
+body{
+    background-image: url(/backgrounds/graphpaper.jpg);
+    background-size: 75%;
+}
+hr{
+    color: rgb(88, 77, 129);
+}
+h1{
+    color: #204a94;
+    font-family: "Architect";
+}
+h2{
+    color:rgb(85, 104, 138);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+#logo{
+    border-width: 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(81, 82, 146, 0.4);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background-color: rgba(81, 82, 146, 0.45);
+}
+.navbar li{
+    float: left;
+}
+p{
+    color: #031f50;
+    font-family: "Architect";
+}
+a{
+    color: #0e3374;
+    text-decoration: underline dashed;
+    font-family: "Architect";
+    font-size: 25px;
+}
+img{
+    border: 2px solid #555;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#return{
+    font-size: 20px;
+}
+#bigger{
+    font-size: 20px;
+}

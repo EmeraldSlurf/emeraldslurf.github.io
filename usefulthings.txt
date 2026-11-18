@@ -1,0 +1,6 @@
+this is what you need in each html for a custom font, nest it in the *head* section;
+swap out the link with whatever font you need:
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+a type of blue color i thought was nice, needs to be lighter to be used as a background:
+#55688a (hex code)

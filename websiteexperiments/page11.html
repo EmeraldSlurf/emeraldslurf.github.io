@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 11</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../i.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Page 11: Learning about forms!</h1>
+
+    <p>this is just an experiment and doesn't do anything... for now</p>
+
+    <forum action="action_page.php" method="POST">
+
+        <div>
+        <lable for="fname">first name:</lable>
+        <input type="text" id="fname" name="fname" placeholder="John" required>
+        </div>
+
+        <br>
+
+        <div>
+        <lable for="lname">last name:</lable>
+        <input type="text" id="lname" name="lname" placeholder="Doe" required>
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="pass">password:</lable>
+            <input type="password" id="pass" name="pass" maxlength="15" required>
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="email">email:</lable>
+            <input type="email" id="email" name="email" placeholder="youremail@yahoo.com">
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="phone">phone #:</lable>
+            <input type="type" id="phone" name="phone" placeholder="123-456-7890">
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="bdate">birthday:</lable>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="quantity">buying quantity:</lable>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" value="1">
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="title">title:</lable>
+
+            <lable for="Mr.">Mr.</lable>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+
+            <lable for="Mrs.">Mrs.</lable>
+            <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+            <lable for="Dr.">Dr.</lable>
+            <input type="radio" id="Dr." name="title" value="Dr.">
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="payment">payment type:</lable>
+            <select id="payment" name="payment">
+                <option value="visa">visa</option>
+                <option value="goobyCard">gooby card</option>
+                <option value="yesSir">big bucks</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="ability">are you special?</lable>
+            <input type="checkbox" id="ability" name="ability">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </forum>
+
+    <br>
+    <hr>
+    <a href="../index.html">
+        Return to Homepage
+    </a>
+</body>
+</html>
