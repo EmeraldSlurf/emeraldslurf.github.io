@@ -1,0 +1,108 @@
+body{
+    background-image: url(/backgrounds/graphpaperfuture.jpg);
+    background-size: 40%;
+}
+
+/* title */
+
+.title {
+    padding-left: 3%;
+}
+
+
+/* all headings and text*/
+
+h1{
+    color: #204a94;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3{
+    color: #211d7b;
+    font-family:'Segoe UI', Tahoma, Geneva;
+    font-size: 30px;
+}
+
+p{
+    color: #1b3f7e;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 25px;
+}
+
+a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+/* this is for the cards */
+
+.cards_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.scores_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px dotted #000000;
+    border-radius: 8px;
+}
+
+.other_box {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px dotted #000000;
+    border-radius: 8px;
+}
+
+.card {
+    flex: 1 2;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+
+    ul{
+        padding-left: 50px;
+        line-height: 30px;
+    }
+}
+
+#blue {
+    background-color: #becdf7;
+}
+
+#red {
+    background-color: #f9bebe;
+}
+
+#yellow {
+    background-color: #f7f7a3;
+}
+
+#purple {
+    background-color: #e4bef9;
+}
+
+#green {
+    background-color: #bef9c1;
+}
+
+#orange {
+    background-color: #f9d5a2;
+}
