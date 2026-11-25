@@ -1,26 +1,58 @@
-@font-face{
-    font-family: Architect;
-    src: url(ArchitectsDaughter-Regular.ttf);
-}
 body{
     background-image: url(/backgrounds/graphpaper.jpg);
     background-size: 75%;
 }
-hr{
-    color: rgb(107, 102, 124);
+
+
+/* all the font stuff */
+
+@font-face{
+    font-family: Architect;
+    src: url(ArchitectsDaughter-Regular.ttf);
 }
+
 h1{
     color: #204a94;
     font-family: "Architect";
 }
+
 h2{
     color:rgb(85, 104, 138);
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
 }
-#logo{
-    border-width: 0px;
+
+p{
+    color: #031f50;
+    font-family: "Architect";
 }
+
+a{
+    color: #0e3374;
+    text-decoration: underline dashed;
+    font-family: "Architect";
+    font-size: 25px;
+}
+
+hr{
+    color: rgb(107, 102, 124);
+}
+
+
+/* divs */
+
+.box{
+    border: #555, 2px, solid;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* navbar */
+
+nav{
+    max-width:fit-content;
+}
+
 .navbar ul{
     list-style-type: none;
     background-color: rgba(81, 82, 146, 0.4);
@@ -29,6 +61,7 @@ h2{
     overflow: hidden;
     border-radius: 5px;
 }
+
 .navbar a{
     color: white;
     text-decoration: none;
@@ -37,22 +70,18 @@ h2{
     text-align: center;
     font-size: 20px;
 }
+
 .navbar a:hover{
     background-color: rgba(81, 82, 146, 0.45);
 }
+
 .navbar li{
     float: left;
 }
-p{
-    color: #031f50;
-    font-family: "Architect";
-}
-a{
-    color: #0e3374;
-    text-decoration: underline dashed;
-    font-family: "Architect";
-    font-size: 25px;
-}
+
+
+/* images */
+
 img{
     border: 2px solid #555;
     border-radius: 5px;
@@ -60,9 +89,18 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* special */
+
 #return{
     font-size: 20px;
 }
+
 #bigger{
     font-size: 20px;
+}
+
+#logo{
+    border-width: 0px;
 }
